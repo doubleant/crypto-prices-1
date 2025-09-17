@@ -3,7 +3,8 @@
 body {
   font-family: 'Encode Sans Expanded', sans-serif;
   font-size: 1em;
-  color: black;
+  background: #222;
+  color: aliceblue;
   height: 100vh;
   /* Ensure the body takes the full viewport height */
   margin: 0;
@@ -42,13 +43,13 @@ ul {
 
 a {
   text-decoration: none;
-  color: #333;
+  color: inherit;
   /* Set link color */
   font-weight: 500;
 }
 
 main {
-  
+
 }
 
 .section-one {
