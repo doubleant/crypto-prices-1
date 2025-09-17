@@ -4,44 +4,51 @@ body {
   font-family: 'Encode Sans Expanded', sans-serif;
   font-size: 1em;
   color: black;
-  height: 100vh; /* Ensure the body takes the full viewport height */
-  margin: 0; /* Remove any default browser margin */
+  height: 100vh;
+  /* Ensure the body takes the full viewport height */
+  margin: 0;
+  /* Remove any default browser margin */
   padding: 0;
+  display: flex;
+  flex-direction: column;
 }
 
-header {
-  width: 100%;
-  padding: 10px 20px; /* Add spacing inside header */
-  background: rgba(221, 13, 13, 1); /* Optional: light background for readability */
-}
-
-h1 > img {
-  width: 100px;
-  height: 100px;
+header{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
 }
 
 nav {
-display: flex;
-align-items: center;
-justify-content: space-between;
+ display: flex;
+ align-items: center;
+ justify-content: center;
 }
 
-nav > #nav-menu {
+#nav-menu {
   display: flex;
+  align-items: center;
   justify-content: space-between;
-  outline: 2px solid red; /* Debug outline */
+  gap: 10px;
 }
+
 
 ul {
-  list-style-type: none; /* Remove bullet points */
+  list-style-type: none;
+  /* Remove bullet points */
   margin: 0;
   padding: 0;
 }
 
 a {
   text-decoration: none;
-  color: #333; /* Set link color */
+  color: #333;
+  /* Set link color */
   font-weight: 500;
+}
+
+main {
+  
 }
 
 .section-one {
